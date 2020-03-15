@@ -1,5 +1,7 @@
 ## Start
 
+<a href="https://github.com/VladimirTambovtsev/starter-k8s/blob/master/vm/INFO.md">Kubernetes info start</a>
+
 Set env variables (fetched by docker): <br />
 `echo "MONGO_URI=<mongodb_url_here>" >> .env` <br />
 `echo "SECRET_KEY=<secret_jwt_salt_here>" >> .env`
