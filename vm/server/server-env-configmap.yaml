@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  MONGO_URI: mongodb://vladimir-crwn-clothing:vladimir-crwn-clothing44@ds163867.mlab.com:63867/crwn-clothing
+  SECRET_KEY: M3rsht$_fumbre1a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: server-env
+  name: server-env
